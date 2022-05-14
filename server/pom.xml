@@ -16,8 +16,13 @@
     <dependencies>
         <dependency>
             <groupId>ru.gb.network-storage</groupId>
-            <artifactId>commons</artifactId>
+            <artifactId>common</artifactId>
             <version>DEV-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.34.0</version>
         </dependency>
     </dependencies>
 
@@ -26,6 +31,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.3</version>
                 <executions>
                     <execution>
                         <goals>
@@ -41,3 +47,4 @@
     </build>
 
 </project>
+

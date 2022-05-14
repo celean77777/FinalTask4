@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>ru.gb.network-storage</groupId>
-            <artifactId>commons</artifactId>
+            <artifactId>common</artifactId>
             <version>DEV-SNAPSHOT</version>
         </dependency>
 
@@ -34,6 +34,9 @@
             <artifactId>javafx-fxml</artifactId>
             <version>${javafx.version}</version>
         </dependency>
+
+
+
     </dependencies>
 
     <build>
@@ -49,6 +52,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.6.3</version>
                 <executions>
                     <execution>
                         <goals>

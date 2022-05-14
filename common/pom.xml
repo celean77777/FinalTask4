@@ -10,7 +10,8 @@
         <version>DEV-SNAPSHOT</version>
     </parent>
 
-    <artifactId>commons</artifactId>
+    <artifactId>common</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <jackson.version>2.13.2</jackson.version>
