@@ -134,7 +134,7 @@ public class Client extends Application {
             }
                 });
 
-// Авторизация
+// Авторизаци
         authBtn.setOnAction(event -> {
             if (!loginField.getText().equals("")&&!passField.getText().equals("")){
                 AuthMessage authMessage = new AuthMessage();
